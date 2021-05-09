@@ -1,0 +1,41 @@
+/* The result and nomination boxes */
+.main-displays{
+    margin-top: 10px;   
+}
+
+/* The search box */
+.search-display {
+    height: 200px;
+}
+
+/* The search bar */ 
+.search-bar {
+    margin-right: 5px;
+}
+
+/* Entire html body */ 
+body{
+    background-color:lavender;
+}
+
+/* Nomination button */
+.custom-button {
+    height: 50%;
+}
+
+/* Result box image */
+.result-image {
+    width: 50%;
+    height: 100%;
+}
+
+/* Result box film title */
+.movie-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Page's main title */
+.title{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 48pt;
+}
