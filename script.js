@@ -17,7 +17,7 @@ function fillResults() {
         // The search term
         let searchTerm = urlParams.get('searchTerm').toLowerCase();
         // The address in the OMDB API to be retrieved from 
-        var searchAddress = "http://www.omdbapi.com/?s=" + searchTerm + "&type=movie&apikey=e249cfec";
+        var searchAddress = "https://www.omdbapi.com/?s=" + searchTerm + "&type=movie&apikey=e249cfec";
 
         // Fetches the data from the search address and appends each film to the result box
         fetch(searchAddress)
